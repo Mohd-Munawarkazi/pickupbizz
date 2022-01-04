@@ -1,0 +1,36 @@
+table{
+    width: 900px;
+    padding: 20px;
+    margin:auto;
+
+}
+th{
+    background-color: #e7a8aa;
+    padding: 20px;
+    font-weight: 500;
+    border-radius: 25px;
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+
+
+}
+td{
+    text-align: center;
+    padding: 10px;
+    height: 35px;
+    border-radius: 25px;
+    
+
+
+
+}
+tr:nth-child(even){
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: 500;
+}
+
+tr:nth-child(odd){
+    background-color:rgba(255, 99, 71, 0.4);
+}

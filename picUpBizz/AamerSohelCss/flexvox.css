@@ -1,0 +1,21 @@
+
+div{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:space-between;
+
+}
+
+
+
+h2{
+    background-color: orangered;
+    padding: 10px;
+    border: 2px solid black;
+    width: 400px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px black;
+}

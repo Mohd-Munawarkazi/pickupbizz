@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=H1, initial-scale=1.0">
+    <title>COLOR properties</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="modalbox">
+    <h1 class="heading1">this my color and background color first heading </h1>
+    <h1 class="heading2">this my color and background color second heading </h1>
+    <h1 class="heading3"> this my color and background color third heading </h1>
+    <h1 class="heading4">this my color and background color fourth heading </h1>
+
+    
+    
+</div>
+        <button onclick="myFun()">click me</button>
+        <input type="text" id="myFunc">
+        <p id="demo"></p>
+
+
+
+
+</body>
+<script>
+    // const sultan=prompt("enter your age");
+    // var sultan=document.getElementById("myFunc").value;
+     
+    console.log(sultan);
+
+    function myFun(){
+        var sultan=document.getElementById("myFunc").value;
+
+        console.log(sultan);
+        document.getElementById("demo").value=sultan;
+
+   if(sultan>=26){
+        console.log("sultan are eligible for driving licence ✌");
+        document.write("<h1>sultan are eligible for driving licence ✌</h1>");
+        alert("sultan are eligible for driving licence ✌");
+
+    }else if(sultan>=23){
+        document.write("Eligible For Driviving licence 🚗")
+    }else if(sultan >=22){
+        document.write("Also Eligble for 🚗");
+
+    }else if(sultan>=18){
+        document.write("also Elogible for Driving licence🚗");
+
+    }else{
+        console.log("sultan is not eligible 🤞");
+        document.write("sultan are not eligible for driving licence ✌");
+
+    }
+
+     };
+</script>
+</html>

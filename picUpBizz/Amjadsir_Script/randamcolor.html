@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random COLOR</title>
+    <style>
+        #Color{
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+            border-radius: 25%;
+            margin: auto;
+        }
+        button{
+            background: blueviolet;
+            margin-left: 550px;
+            color: white;
+            width: 150px;
+            height: 50px;
+            border-radius: 13px;
+            border: none;
+            padding: 3px;
+            cursor:pointer;
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="Color"></div><br><br>
+    <p id="data"></p>
+    <button onclick=chngeColor()>chnge clr</button>
+    <script>
+        function chngeColor(){
+            const r=Math.floor(Math.random()*256);
+            const g=Math.floor(Math.random()*256);
+            const b=Math.floor(Math.random()*256);
+
+            console.log(r);
+            console.log(g);
+            console.log(b);
+            console.log(r+" "+g+" "+b);
+
+            document.getElementById("data").innerHTML=`rgb(${r} ${g} ${b})`;
+
+            document.getElementById("Color").style.backgroundColor=`rgb(${r} ${g} ${b})`;
+
+
+        }
+    </script>
+    
+</body>
+
+</html>

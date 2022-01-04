@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    text-align: center;
+    background-color:#6D8299;
+    width: 100vw;
+    padding: 10px;
+}
+
+
+nav a{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    /* background-color: rgb(196, 16, 196); */
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+nav a:hover{
+    color: black;
+    background-color:#8CA1A5;
+    border-radius: 15%;
+    /* zoom: 110%; */
+    transform: translate(1.05,1.05);
+
+
+}
+.icon{
+    margin: 5px;
+    color:white;
+    font-size: 25px;
+}

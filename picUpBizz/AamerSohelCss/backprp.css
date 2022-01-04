@@ -1,0 +1,30 @@
+body{
+    background-image:url(images/jackson-so-_t-l5FFH8VA-unsplash.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.para1{
+    background: url(https://picsum.photos/seed/picsum/200/300);
+    padding: 10px;
+    text-align: justify;
+    text-indent: 200px;
+    border-radius: 25px;
+    box-shadow:0 0 10px rgb(20, 19, 20) ;
+}
+.para2{
+    border: 2px solid black;
+    /* background: url(https://picsum.photos/200/300/?blur=2); */
+    background: url(images/5772032.png);
+    background-repeat: no-repeat;
+    background-position: center;
+        /* background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+        background-color:transparent;
+        background-size: 200px;
+        padding: 10px;
+        text-align: justify;
+
+
+    
+};
+

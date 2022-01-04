@@ -1,0 +1,36 @@
+div{
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: 20px;
+    border: 2px solid black;
+    width: 350px;
+}
+
+.static{
+    position:static;
+    left:125px;
+
+
+}
+.relative{
+    position: relative;
+    left: 350px;
+}
+.absolute{
+    position:absolute;
+    left: 300px;
+    top: 500px;
+}
+.fixed{
+    position:fixed;
+    bottom: 20px;
+    right:20px;
+}
+.sticky{
+    position:sticky;
+    top:250px;
+    background-color: yellow;
+
+}
